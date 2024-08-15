@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LLCategoryKit_Example' do
+  pod 'LLCategoryKit', :path => '../'
+
+  target 'LLCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
